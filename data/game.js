@@ -1,0 +1,91 @@
+window.WMK_CANDY_CONFIG = {
+  "title": "WMK Fábrica de Doces",
+  "shapes": [
+    {
+      "id": "round",
+      "name": "Redondo",
+      "icon": "●"
+    },
+    {
+      "id": "square",
+      "name": "Quadrado",
+      "icon": "■"
+    },
+    {
+      "id": "heart",
+      "name": "Coração",
+      "icon": "♥"
+    }
+  ],
+  "flavors": [
+    {
+      "id": "vanilla",
+      "name": "Baunilha",
+      "color": "#f9d99a"
+    },
+    {
+      "id": "chocolate",
+      "name": "Chocolate",
+      "color": "#9a5f41"
+    },
+    {
+      "id": "strawberry",
+      "name": "Morango",
+      "color": "#fa92aa"
+    }
+  ],
+  "frostings": [
+    {
+      "id": "pink",
+      "name": "Rosa",
+      "color": "#ff79b5"
+    },
+    {
+      "id": "mint",
+      "name": "Menta",
+      "color": "#76dfba"
+    },
+    {
+      "id": "blue",
+      "name": "Azul",
+      "color": "#78b7ff"
+    }
+  ],
+  "toppings": [
+    {
+      "id": "cherry",
+      "name": "Cereja",
+      "icon": "🍒"
+    },
+    {
+      "id": "star",
+      "name": "Estrela",
+      "icon": "⭐"
+    },
+    {
+      "id": "berry",
+      "name": "Morango",
+      "icon": "🍓"
+    }
+  ],
+  "difficulties": {
+    "easy": {
+      "seconds": 180,
+      "maxOrders": 8,
+      "mistakes": 5,
+      "bonus": 10
+    },
+    "normal": {
+      "seconds": 150,
+      "maxOrders": 10,
+      "mistakes": 4,
+      "bonus": 15
+    },
+    "hard": {
+      "seconds": 120,
+      "maxOrders": 12,
+      "mistakes": 3,
+      "bonus": 20
+    }
+  }
+};
